@@ -7,7 +7,6 @@ from utils import *
 # Download and xtract VOC datasets into ``path``
 path=os.path.join(os.getcwd(),"data")
 
-path=os.path.join(os.getcwd(),"data")
 if not os.path.exists(path):
     os.mkdir(path)
 
