@@ -16,14 +16,22 @@ InvIndex_final_path=os.path.join(path,"InvIndex_final_version.pickle")
 
 if not os.path.exists(pkl_path_train):
     train_dataset,_=make_train_val_pickle(path,train=1,val=0)
+else:
+    print("Train DataSet pickle file is already available")
 
 if not os.path.exists(pkl_path_val):
     _,val_dataset=make_train_val_pickle(path,train=0,val=1)
+else:
+    print("Validation DataSet pickle file is already ")
 
 if not (os.path.exists(InvIndex_path) or os.path.exists(ImageBB_path)):
     InvIndex,ImageBB=make_index_pickle(InvIndex_path,ImageBB_path,train_dataset)
+else:
+    print("Inverted Index and Bounding Box pickle files are already available")
 
 if not os.path.exists(InvIndex_final_path):
     InvIndex_final_version=make_final_index_pickle(InvIndex_final_path,train_dataset)
+else:
+    print("Final Inverted Index pickle file is already avaiable")
 
 

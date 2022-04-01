@@ -8,7 +8,7 @@ from matplotlib import pyplot as plt
 from gluoncv.utils import viz
 from utils import *
 
-
+# Ensure pickle files are present by running the prepare_pickle_file.py
 
 with open('/content/drive/MyDrive/CBIR_InvIndex.pickle', 'rb') as handle:
     testing_load = pickle.load(handle)
@@ -65,7 +65,7 @@ cids_Q=cids_Q[0][:n]
 bboxes=bboxes[0][:n]
 scores=scores[0][:n]
 ax = utils.viz.plot_bbox(img, bboxes, scores,cids_Q, thresh=threshold,class_names=net.classes)
-#ax = utils.viz.plot_bbox(img, bboxes[0], scores[0],cids[0], class_names=net.clas
+#ax = utils.viz.plot_bbox(img, bboxes[0], scores[0],cids[0], class_names=net.classes)
 plt.show()
 
 cids_Q=cids_Q.asnumpy()
