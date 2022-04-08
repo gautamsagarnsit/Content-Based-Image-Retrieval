@@ -3,8 +3,7 @@ Term Project for the Course Information Retrieval (CS60092)<br>
 Colab File: https://colab.research.google.com/drive/1XDOc9vmrJ4qxj4jO0XF_bk-h5_ED_Fov?usp=sharing
 ## How to Use
 1. Best way to use it is through the jupyter notebook file "CBIR_MAIN.ipynb"
-2. Although the jupyter notebook is self contained, but it is advisable to keep the following pickle files in the right directory. Otherwise it may take around 5-7 hours
-for inital setup. The links of the pickle files are given below
+2. Although the jupyter notebook is self contained, but it is advisable to keep the following pickle files in the right directory. Otherwise it may take around 5-7 hours for inital setup. The links of the pickle files are given below<br>
   (i) VOC 2012 dataset: https://drive.google.com/drive/folders/1HeM-Rz5yugfBc5pBU6JrNwjPjI-IHWQe?usp=sharing<br>
   (ii) VOC 2007 dataset: https://drive.google.com/drive/folders/1-1DLwF1I4c53Cd537eITmhzUD0CvFslb?usp=sharing<br>
   (iii) https://drive.google.com/file/d/1T5ohMmAkySodhT89JxYxZp0ECEvKv8aQ/view?usp=sharing<br>
