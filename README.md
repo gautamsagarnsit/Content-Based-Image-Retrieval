@@ -1,6 +1,6 @@
 # Content-Based-Image-Retrieval
 Term Project for the Course Information Retrieval (CS60092)<br>
-Colab File: https://drive.google.com/file/d/12izP-8N4JpJSMzJIsJIXASDPVlc_TXtP/view?usp=sharing
+Colab File: https://colab.research.google.com/drive/1f5NHByVGZMyIv5zo2YK9CiWcEpn8lXST?usp=sharing
 ## How to Use
 1. Best way to use it is through the jupyter notebook file "CBIR_MAIN.ipynb"
 2. Although the jupyter notebook is self contained, but it is advisable to keep the following pickle files in the right directory. Otherwise it may take around 5-7 hours for inital setup. The links of the pickle files are given below<br>
